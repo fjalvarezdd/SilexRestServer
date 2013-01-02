@@ -8,7 +8,7 @@ use src\Entities\Comment;
 require_once (BASE_DIR . '/src/Entities/Comment.php');
 
 
-$app->get('/see-comments.{format}', function() use($app){
+$app->get('/view-comments.{format}', function() use($app){
     
     $sql = Comment::findAll();
     
