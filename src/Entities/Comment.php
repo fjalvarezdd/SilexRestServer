@@ -2,9 +2,6 @@
 
 namespace src\Entities;
 
-/**
- * Clase creada para simular la encapsulación de la creación de la sentencia SQL.
- */
 class Comment 
 {
     
@@ -16,7 +13,7 @@ class Comment
     public $updated_at;
     
     /**
-     * Retorna un SQL de ejemplo para hacer el insert
+     * Insert query
      * @return string 
      */
     public function getInsertSQL()
@@ -41,7 +38,7 @@ class Comment
     }
     
     /**
-     * Retorna un SQL de ejemplo para buscar un comentario cuyo id sea igual a $id
+     * Find a comment
      * @param int $id
      * @return string 
      */
@@ -56,8 +53,7 @@ class Comment
     }
     
     /**
-     * Retorna un SQL de ejemplo para obtener todos los registros y columnas
-     * de la tabla
+     * Returns all the rows
      * @return string 
      */
     public static function findAll()
@@ -69,8 +65,7 @@ class Comment
     }
     
     /**
-     * Retorna un SQL de ejemplo para hacer un update del campo $content al 
-     * comentario int $id
+     * Update the comment based on the ID
      * @param string $content
      * @return string
      */
@@ -85,7 +80,7 @@ class Comment
     }
     
     /**
-     * Retorna un SQL de ejemplo para eliminar el comentario con id igual a $id
+     * Delete comment based on ID
      * @param int $id
      * @return string 
      */
