@@ -1,0 +1,10 @@
+Author: Fran Alvarez
+fran@devaddiction.com
+http://www.devaddiction.com
+@devaddiction
+
+Source License
+------------------------------------------------------------------------------------------
+This software is licensed under the terms of the Open Source GPL 3.0 license. 
+
+http://www.gnu.org/licenses/gpl.html
